@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C3BA1ED5D184A558BF6B2CF /* Pods_WeaverPerformanceTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A3531181D0E8D6859F4E137 /* Pods_WeaverPerformanceTest.framework */; };
+		1D5D5617253AD9BD000513A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D5D5616253AD9BD000513A5 /* AppDelegate.swift */; };
+		1D5D5619253AD9BD000513A5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D5D5618253AD9BD000513A5 /* SceneDelegate.swift */; };
+		1D5D561B253AD9BD000513A5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D5D561A253AD9BD000513A5 /* ViewController.swift */; };
+		1D5D561E253AD9BD000513A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D5D561C253AD9BD000513A5 /* Main.storyboard */; };
+		1D5D5620253AD9BE000513A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D5D561F253AD9BE000513A5 /* Assets.xcassets */; };
+		1D5D5623253AD9BE000513A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D5D5621253AD9BE000513A5 /* LaunchScreen.storyboard */; };
+		1D5D562F253AEACC000513A5 /* TestObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D5D562E253AEACC000513A5 /* TestObject.swift */; };
+		1D5D5631253AEB19000513A5 /* InjectedDependencies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D5D5630253AEB19000513A5 /* InjectedDependencies.swift */; };
+		1D5D5635253AF6D3000513A5 /* WeaverGenerated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D5D5634253AF6D3000513A5 /* WeaverGenerated.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D5D5613253AD9BD000513A5 /* WeaverPerformanceTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeaverPerformanceTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D5D5616253AD9BD000513A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1D5D5618253AD9BD000513A5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1D5D561A253AD9BD000513A5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1D5D561D253AD9BD000513A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1D5D561F253AD9BE000513A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1D5D5622253AD9BE000513A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1D5D5624253AD9BE000513A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D5D562E253AEACC000513A5 /* TestObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestObject.swift; sourceTree = "<group>"; };
+		1D5D5630253AEB19000513A5 /* InjectedDependencies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InjectedDependencies.swift; sourceTree = "<group>"; };
+		1D5D5634253AF6D3000513A5 /* WeaverGenerated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeaverGenerated.swift; sourceTree = "<group>"; };
+		1EDA9B4BE85BD20EDC65314B /* Pods-WeaverPerformanceTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeaverPerformanceTest.release.xcconfig"; path = "Target Support Files/Pods-WeaverPerformanceTest/Pods-WeaverPerformanceTest.release.xcconfig"; sourceTree = "<group>"; };
+		7A3531181D0E8D6859F4E137 /* Pods_WeaverPerformanceTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WeaverPerformanceTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE1DB325AF3AE3515DDB7B6E /* Pods-WeaverPerformanceTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeaverPerformanceTest.debug.xcconfig"; path = "Target Support Files/Pods-WeaverPerformanceTest/Pods-WeaverPerformanceTest.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D5D5610253AD9BD000513A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C3BA1ED5D184A558BF6B2CF /* Pods_WeaverPerformanceTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		141EC3A00B6AC90E7151DC36 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7A3531181D0E8D6859F4E137 /* Pods_WeaverPerformanceTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1D5D560A253AD9BD000513A5 = {
+			isa = PBXGroup;
+			children = (
+				1D5D5615253AD9BD000513A5 /* WeaverPerformanceTest */,
+				1D5D5614253AD9BD000513A5 /* Products */,
+				C85432F86501F12981F6C5C0 /* Pods */,
+				141EC3A00B6AC90E7151DC36 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1D5D5614253AD9BD000513A5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D5D5613253AD9BD000513A5 /* WeaverPerformanceTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1D5D5615253AD9BD000513A5 /* WeaverPerformanceTest */ = {
+			isa = PBXGroup;
+			children = (
+				1D5D5624253AD9BE000513A5 /* Info.plist */,
+				1D5D562A253AD9C9000513A5 /* Other */,
+				1D5D5616253AD9BD000513A5 /* AppDelegate.swift */,
+				1D5D562E253AEACC000513A5 /* TestObject.swift */,
+				1D5D5630253AEB19000513A5 /* InjectedDependencies.swift */,
+				1D5D5634253AF6D3000513A5 /* WeaverGenerated.swift */,
+			);
+			path = WeaverPerformanceTest;
+			sourceTree = "<group>";
+		};
+		1D5D562A253AD9C9000513A5 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				1D5D5618253AD9BD000513A5 /* SceneDelegate.swift */,
+				1D5D561A253AD9BD000513A5 /* ViewController.swift */,
+				1D5D561C253AD9BD000513A5 /* Main.storyboard */,
+				1D5D561F253AD9BE000513A5 /* Assets.xcassets */,
+				1D5D5621253AD9BE000513A5 /* LaunchScreen.storyboard */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		C85432F86501F12981F6C5C0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AE1DB325AF3AE3515DDB7B6E /* Pods-WeaverPerformanceTest.debug.xcconfig */,
+				1EDA9B4BE85BD20EDC65314B /* Pods-WeaverPerformanceTest.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D5D5612253AD9BD000513A5 /* WeaverPerformanceTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D5D5627253AD9BE000513A5 /* Build configuration list for PBXNativeTarget "WeaverPerformanceTest" */;
+			buildPhases = (
+				4EBA6C9A96F9841ED3997A1D /* [CP] Check Pods Manifest.lock */,
+				1D5D562B253ADAEB000513A5 /* Run Script Weaver */,
+				1D5D562C253AE6FC000513A5 /* Start Measure Time Script */,
+				1D5D560F253AD9BD000513A5 /* Sources */,
+				1D5D562D253AE71F000513A5 /* Finish Measure Time Script */,
+				1D5D5610253AD9BD000513A5 /* Frameworks */,
+				1D5D5611253AD9BD000513A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WeaverPerformanceTest;
+			productName = WeaverPerformanceTest;
+			productReference = 1D5D5613253AD9BD000513A5 /* WeaverPerformanceTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1D5D560B253AD9BD000513A5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1170;
+				LastUpgradeCheck = 1170;
+				ORGANIZATIONNAME = v.batrakov;
+				TargetAttributes = {
+					1D5D5612253AD9BD000513A5 = {
+						CreatedOnToolsVersion = 11.7;
+					};
+				};
+			};
+			buildConfigurationList = 1D5D560E253AD9BD000513A5 /* Build configuration list for PBXProject "WeaverPerformanceTest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1D5D560A253AD9BD000513A5;
+			productRefGroup = 1D5D5614253AD9BD000513A5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D5D5612253AD9BD000513A5 /* WeaverPerformanceTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D5D5611253AD9BD000513A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D5D5623253AD9BE000513A5 /* LaunchScreen.storyboard in Resources */,
+				1D5D5620253AD9BE000513A5 /* Assets.xcassets in Resources */,
+				1D5D561E253AD9BD000513A5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1D5D562B253ADAEB000513A5 /* Run Script Weaver */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script Weaver";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "weaver clean\nweaver swift --project-path $PROJECT_DIR/$PROJECT_NAME --main-output-path WeaverPerformanceTest/WeaverGenerated.swift\n";
+		};
+		1D5D562C253AE6FC000513A5 /* Start Measure Time Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Measure Time Script";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "date_now_in_miliseconds=$(python -c 'from time import time; print int(round(time() * 1000))')\n\necho $date_now_in_miliseconds > \"measured_compile_time.log\"\n";
+		};
+		1D5D562D253AE71F000513A5 /* Finish Measure Time Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Finish Measure Time Script";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "start_time_in_miliseconds=$(<measured_compile_time.log)\nfinish_time_in_miliseconds=$(python -c 'from time import time; print int(round(time() * 1000))')\n\ndifference=$(($finish_time_in_miliseconds-$start_time_in_miliseconds))\n\necho \"[Difference] $difference [ms]\" > \"measured_compile_time.log\"\n";
+		};
+		4EBA6C9A96F9841ED3997A1D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WeaverPerformanceTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D5D560F253AD9BD000513A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D5D561B253AD9BD000513A5 /* ViewController.swift in Sources */,
+				1D5D5617253AD9BD000513A5 /* AppDelegate.swift in Sources */,
+				1D5D562F253AEACC000513A5 /* TestObject.swift in Sources */,
+				1D5D5631253AEB19000513A5 /* InjectedDependencies.swift in Sources */,
+				1D5D5619253AD9BD000513A5 /* SceneDelegate.swift in Sources */,
+				1D5D5635253AF6D3000513A5 /* WeaverGenerated.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1D5D561C253AD9BD000513A5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D5D561D253AD9BD000513A5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1D5D5621253AD9BE000513A5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D5D5622253AD9BE000513A5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1D5D5625253AD9BE000513A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1D5D5626253AD9BE000513A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1D5D5628253AD9BE000513A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE1DB325AF3AE3515DDB7B6E /* Pods-WeaverPerformanceTest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7Z97Q8NL2L;
+				INFOPLIST_FILE = WeaverPerformanceTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.WeaverPerformanceTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1D5D5629253AD9BE000513A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1EDA9B4BE85BD20EDC65314B /* Pods-WeaverPerformanceTest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7Z97Q8NL2L;
+				INFOPLIST_FILE = WeaverPerformanceTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.WeaverPerformanceTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D5D560E253AD9BD000513A5 /* Build configuration list for PBXProject "WeaverPerformanceTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D5D5625253AD9BE000513A5 /* Debug */,
+				1D5D5626253AD9BE000513A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D5D5627253AD9BE000513A5 /* Build configuration list for PBXNativeTarget "WeaverPerformanceTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D5D5628253AD9BE000513A5 /* Debug */,
+				1D5D5629253AD9BE000513A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1D5D560B253AD9BD000513A5 /* Project object */;
+}

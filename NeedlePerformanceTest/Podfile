@@ -1,0 +1,8 @@
+platform :ios, '9.0'
+
+target 'NeedlePerformanceTest' do
+  	use_frameworks!
+
+    pod 'NeedleFoundation'
+
+end
